@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+.DaftarKelurahanTitle{
+    justify-content: start;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: Left;
+    letter-spacing: 0.05em;
+    margin-top: 50px;
+    color: #000000;
+}
+
+.d-flex{
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ButtonSearch{
+    width: 45.08px;
+    height: 39.82px;
+}
+
+.Paceda{
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.GirianIndah{
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.Mawali{
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.Sagerat{
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.WangurerBarat{
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.Pakadoodan{
+    margin-top: 100px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+
+.ButtonNext{
+    margin-top: 75px;
+}
+
+.nomorNext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.pagination ul{
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+}
+.pagination ul li{
+    color: #FF0000;
+    list-style: none;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+.pagination ul li.numb{
+    list-style: none;
+    height: 45px;
+    width: 45px;
+    margin: 0 3px;
+    line-height: 45px;
+    border-radius: 50%;
+}
+.pagination ul li.numb.first{
+    margin: 0px 3px 0 -5px;
+}
+.pagination ul li.numb.last{
+    margin: 0px -5px 0 3px;
+}
+.pagination ul li.dots{
+    font-size: 22px;
+    cursor: default;
+}
+.pagination ul li.btn{
+    padding: 0 20px;
+    border-radius: 50px;
+}
+.pagination li.active,
+.pagination ul li.numb:hover,
+.pagination ul li:first-child:hover,
+.pagination ul li:last-child:hover{
+    color: #fff;
+    background: #FF0000;
+}
